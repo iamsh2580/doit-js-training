@@ -4,9 +4,11 @@
 
 */
 
+//의문점 값이 바뀌니까 let 했어요
+
 const num=prompt("1보다 큰 숫자를 입력하세요.");
 const numbers=[];
-let sum=0; //의문점 값이 바뀌니까 let 했어요
+let sum=0; 
 
 if(num<1 || num == null){
     alert("1보다 큰 숫자를 입력하세요!!");
